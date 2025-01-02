@@ -42,11 +42,42 @@ Once the setup is complete, you can use the model to perform inference on images
 
 Ensure you have a trained model or weights in the weights/ directory.
 
-Run the detection script:
+## How to Run
 
-python detect.py --weights path_to_weights --source path_to_image
+### Option 1: Command Line Interface
+1. Clone the repository to your local machine:
+    ```bash
+    git clone https://github.com/your-username/your-repo-name.git
+    ```
+2. Install the required dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+3. Run the script to start the detection:
+    ```bash
+    python detect.py --source path_to_your_image_or_video
+    ```
 
-Replace path_to_weights with the location of your trained model weights and path_to_image with the image you want to process.
+### Option 2: Web User Interface (Gradio)
+Alternatively, you can run the script `app.py` after installing **Gradio** to launch a web user interface for easy detection:
+
+1. Install Gradio:
+    ```bash
+    pip install gradio
+    ```
+2. Run the script:
+    ```bash
+    python app.py
+    ```
+
+This will open a local web interface where you can upload images for passport detection.
+
+## Technologies Used
+- YOLOv5
+- Python
+- Gradio (for interface)
+- Torch
+
 
 Training
 To train the model on your own dataset:
