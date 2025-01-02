@@ -27,7 +27,6 @@ This project utilizes the YOLOv5 framework to detect passports in images. YOLOv5
 
 To get started with the project, clone the repository and install the necessary dependencies:
 
-```bash
 git clone https://github.com/suv4tha/passport-detection-yolov5.git
 cd passport-detection-yolov5
 Then, install the required Python packages:
