@@ -6,6 +6,20 @@ __pycache__/
 # C extensions
 *.so
 
+# YOLOv5 model weights
+weights/
+*.pt
+# Datasets
+data/
+# Training logs
+*.log
+# Editor backups
+*~
+# TensorBoard logs
+runs/
+events/
+
+
 # Distribution / packaging
 .Python
 build/
