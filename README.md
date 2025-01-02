@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div align="center">
   <p>
     <a href="https://www.ultralytics.com/events/yolovision" target="_blank">
@@ -468,3 +469,7 @@ For YOLOv5 bug reports and feature requests please visit [GitHub Issues](https:/
 </div>
 
 [tta]: https://docs.ultralytics.com/yolov5/tutorials/test_time_augmentation
+=======
+# passport-detection-yolov5
+A YOLOv5-based model for detecting and localizing passports in images. Trained on a custom dataset with augmented images, it achieves high accuracy under varying angles, lighting, and backgrounds. Ideal for automated document verification and identity management
+>>>>>>> origin/main
