@@ -29,31 +29,33 @@ This project utilizes the **YOLOv5** framework to detect passports in images. YO
 To get started with the project, follow the steps below:
 
 1. **Clone the repository**:
-   ```bash
    git clone https://github.com/suv4tha/passport-detection-yolov5.git
    cd passport-detection-yolov5
-Install required dependencies:
-bash
-Copy code
+   
+**Install required dependencies:**
+
 pip install -r requirements.txt
+
 Usage
 Detection
 Once the setup is complete, you can use the model to perform inference on images.
 
 Ensure you have a trained model or weights in the weights/ directory.
+
 Run the detection script:
-bash
-Copy code
+
 python detect.py --weights path_to_weights --source path_to_image
+
 Replace path_to_weights with the location of your trained model weights and path_to_image with the image you want to process.
+
 Training
 To train the model on your own dataset:
 
 Place your dataset in the appropriate folder and specify the dataset path in data.yaml.
 Run the following command:
-bash
-Copy code
+
 python train.py --data data.yaml --cfg models/yolov5s.yaml --weights yolov5s.pt --batch-size 16 --epochs 100
+
 This will start training the model on your dataset, and the trained weights will be saved for future inference.
 
 Dataset
