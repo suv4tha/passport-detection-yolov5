@@ -47,7 +47,7 @@ Ensure you have a trained model or weights in the weights/ directory.
 ### Option 1: Command Line Interface
 1. Clone the repository to your local machine:
     ```bash
-    git clone https://github.com/your-username/your-repo-name.git
+    git clone https://github.com/suv4tha/passport-detection-yolov5.git
     ```
 2. Install the required dependencies:
     ```bash
